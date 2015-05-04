@@ -37,16 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B6FDD6100A7420922D73A41 /* SVSwipeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SVSwipeView.podspec; path = ../SVSwipeView.podspec; sourceTree = "<group>"; };
+		0B6FDD6100A7420922D73A41 /* SVSwipeableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SVSwipeableView.podspec; path = ../SVSwipeableView.podspec; sourceTree = "<group>"; };
 		2DE86425F3269EF0B477F189 /* libPods-SVSwipeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVSwipeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C73D0FDC42C01731B33982 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* SVSwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVSwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* SVSwipeableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVSwipeableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* SVSwipeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVSwipeView-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* SVSwipeableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVSwipeableView-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* SVSwipeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVSwipeView-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* SVSwipeableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVSwipeableView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* SVSwipeView.app */,
+				6003F58A195388D20070C39A /* SVSwipeableView.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -157,9 +157,9 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* SVSwipeView-Info.plist */,
+				6003F595195388D20070C39A /* SVSwipeableView-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F59B195388D20070C39A /* SVSwipeView-Prefix.pch */,
+				6003F59B195388D20070C39A /* SVSwipeableView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0B6FDD6100A7420922D73A41 /* SVSwipeView.podspec */,
+				0B6FDD6100A7420922D73A41 /* SVSwipeableView.podspec */,
 				44C73D0FDC42C01731B33982 /* README.md */,
 				BFAB8C422F1F38EAA9F2ED3B /* LICENSE */,
 			);
@@ -196,9 +196,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* SVSwipeView */ = {
+		6003F589195388D20070C39A /* SVSwipeableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SVSwipeView" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SVSwipeableView" */;
 			buildPhases = (
 				409035346BFE6922FE8D2BE4 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -210,9 +210,9 @@
 			);
 			dependencies = (
 			);
-			name = SVSwipeView;
+			name = SVSwipeableView;
 			productName = SVSwipeView;
-			productReference = 6003F58A195388D20070C39A /* SVSwipeView.app */;
+			productReference = 6003F58A195388D20070C39A /* SVSwipeableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Tests */ = {
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SVSwipeView" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SVSwipeableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,7 +263,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* SVSwipeView */,
+				6003F589195388D20070C39A /* SVSwipeableView */,
 				6003F5AD195388D20070C39A /* Tests */,
 			);
 		};
@@ -378,7 +378,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* SVSwipeView */;
+			target = 6003F589195388D20070C39A /* SVSwipeableView */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,8 +499,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVSwipeView/SVSwipeView-Prefix.pch";
-				INFOPLIST_FILE = "SVSwipeView/SVSwipeView-Info.plist";
+				GCC_PREFIX_HEADER = "SVSwipeView/SVSwipeableView-Prefix.pch";
+				INFOPLIST_FILE = "SVSwipeView/SVSwipeableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVSwipeView/SVSwipeView-Bridging-Header.h";
@@ -517,8 +518,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVSwipeView/SVSwipeView-Prefix.pch";
-				INFOPLIST_FILE = "SVSwipeView/SVSwipeView-Info.plist";
+				GCC_PREFIX_HEADER = "SVSwipeView/SVSwipeableView-Prefix.pch";
+				INFOPLIST_FILE = "SVSwipeView/SVSwipeableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVSwipeView/SVSwipeView-Bridging-Header.h";
@@ -571,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "SVSwipeView" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "SVSwipeableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -580,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SVSwipeView" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SVSwipeableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

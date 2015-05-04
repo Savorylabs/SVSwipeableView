@@ -8,21 +8,21 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SVSwipeView"
+  s.name             = "SVSwipeableView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SVSwipeView."
+  s.summary          = "A short description of SVSwipeableView."
   s.description      = <<-DESC
                        An optional longer description of SVSwipeView
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SVSwipeView"
+  s.homepage         = "https://github.com/Savorylabs/SVSwipeableView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "PJ Dillon" => "knightcode@savory.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SVSwipeView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/SVSwipeableView/SVSwipeableView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/savory'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
