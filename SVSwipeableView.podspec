@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "SVSwipeableView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SVSwipeableView."
+  s.summary          = ""
   s.description      = <<-DESC
-                       An optional longer description of SVSwipeView
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/Savorylabs/SVSwipeableView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
